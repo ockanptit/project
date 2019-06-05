@@ -1,0 +1,184 @@
+
+.header{
+    box-sizing: border-box;
+    padding: 60px 0;
+    margin-left: 100px;
+}
+
+.header .main-menu ul {
+    list-style: none;
+}
+
+.main-menu ul li{
+    float: left;
+
+}
+.main-menu a{
+    padding-left: 40px;
+    color: #302f2f;
+    font-size: 15pt;
+    text-decoration: none;
+}
+.main-menu a:hover{
+    color: aqua;
+}
+
+.testimonial{
+    height: 500px;
+    width: 100%;
+    background: #e9ebec;
+}
+
+
+.content-blog{
+    height: 700px;
+    width: 100%;
+    margin: 50px 200px;
+}
+.content-blog .blog{
+    float: left;
+}
+.blog{
+    width: 350px;
+    height: 480px;
+    background: #f6f7f8;
+    margin-top: 50px ;
+    margin-right: 35px ;
+}
+
+.blog input{
+    border: none;
+    background: #0aaefa;
+    color: #FFFFFF;
+    width: auto;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.blog img{
+    margin: 5px;
+}
+.blog p{
+    padding: 0 20px;
+}
+.blog .fa-heart-o{
+    float: left;
+    margin-left: 20px;
+    padding-right: 10px;
+    color: #f600ff;
+}
+.blog .fa-pencil-square-o{
+    float: right;
+    margin-right: 15px;
+    padding-left: 10px;
+    color: #15fc00;
+}
+.contact{
+    height: 700px;
+    width: 100%;
+    background: #e9ebec;
+}
+.contact h2{
+    text-align: center;
+    font-size: 40pt;
+}
+.contact-info{
+    margin: 50px 200px;
+}
+.contact-info .contact-info-row{
+    float: left;
+}
+.contact-info-row {
+    width: 350px;
+    height: 100px;
+    background: #FFFFFF;
+    padding-left: 20px ;
+    text-align: center;
+
+}
+.phone{
+    margin:0 33px;
+    box-shadow: 0 5px 15px #666;
+}
+
+.contact-info i{
+    font-size: 50px;
+}
+
+.contact-form{
+    margin-top: 230px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-sizing: border-box;
+}
+
+.content-form input,textarea{
+    border: none;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding: 8px 15px;
+}
+.content-form textarea{
+    padding-bottom: 70px;
+}
+.first-row input{
+    width: 48%;
+}
+
+.first-row input[name="email"]{
+    float:right;
+}
+.first-row:after{
+    content: '';
+    clear: both;
+}
+
+.contact-form input[type="submit"]{
+    background: #0aaefa;
+    color: #FFFFFF;
+    width: auto;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.submit-row{
+    text-align: center;
+    float: right;
+}
+
+.footer{
+    background: #363642;
+    height: 150px;
+    width: 100%;
+}
+.social-icon  ul li i{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #464652;
+    color: #363642;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.social-icon i:hover {
+    background: #0aaefa;
+    color: #FFFFFF;
+}
+
+.social-icon ul {
+    list-style: none;
+}
+.social-icon ul li{
+    float: left;
+}
+.social-icon{
+    display: table;
+    margin:  auto;
+    padding: 50px;
+}

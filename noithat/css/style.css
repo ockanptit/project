@@ -1,0 +1,424 @@
+
+/*
+Header CSS
+*/
+.header{
+    box-sizing: border-box;
+    height: 180px;
+    padding: 50px 0;
+    margin-left: 50px;
+}
+
+.header nav.main-menu{
+
+}
+
+.header nav.main-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.header nav.main-menu li{
+    float: left;
+}
+
+
+.header nav.main-menu a{
+    display: inline-block;
+
+    color: #8d8d8d;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 70px;
+
+}
+.header nav.main-menu a:hover{
+    color:orange;
+}
+/*
+Banner
+*/
+.banner{
+    width:100%;
+    margin-top : -180px;
+    height: 936px;
+    background: url(../image/banner.png) top center;
+    display: table;
+}
+.banner h1{
+    font-size: 83px;
+    color: #000000;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.banner h1 span{
+    color: #f66c27;
+}
+
+
+/*
+Content
+ */
+
+.content_01{
+    margin-top: 160px;
+    margin-bottom:200px;
+}
+
+.big-pic{
+    width: 615px;
+    height: 440px;
+    margin-left: -100px;
+    position: relative;
+    padding:10px;
+    box-shadow: 25px 25px 30px #e3e3e3;
+}
+
+.small-pic{
+    width:300px;
+    height: 210px;
+    position: absolute;
+    top: 285px;
+    left: 270px;
+    z-index: 2;
+    padding:6px;
+    box-shadow: 17px 17px 20px #e3e3e3;
+}
+
+.about-us{
+    box-sizing: border-box;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.list{
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    color: #EB7032;
+}
+.item{
+    margin: 30px 80px 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+.submit-01{
+    margin-top:60px;
+    background: #f48146;
+    color: #FFFFFF;
+    width: auto;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+
+.content_02 h3{
+    font-size: 50px;
+}
+.content_02 .col-md-4{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    width: 355px;
+    height: 375px;
+    padding: 50px 40px;
+}
+.col-md-4 i{
+    font-size: 50px;
+    padding-left: 127px;
+}
+.col-md-4 h3{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.col-md-4 p{
+    text-align: justify;
+    text-align-last: center;
+    font-size: 15px;
+    color: #888888;
+}
+.col-md-4:hover{
+    box-shadow: 35px 31px 30px #e3e3e391;
+}
+.col-md-4:hover i{
+    color: #EB7032 ;
+}
+
+
+.content_03 .text{
+    margin: 0 auto;
+    width: 870px;
+}
+.content_03 h1{
+    text-align: center;
+    font-size: 45px;
+}
+.content_03 p{
+    margin-top: 45px;
+    margin-bottom: 50px;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 15px;
+    color: #888888;
+}
+.content_03 img{
+    height:800px;
+    padding-left: 200px;
+}
+
+
+.content_04 {
+    position: relative;
+}
+.email-background {
+    height: 360px;
+    width: 100%;
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#ff7b38, #f9915ceb);
+    color: #ffffff14;
+    padding-top: 50px;
+}
+.email-form {
+    width: 700px;
+    position: absolute;
+    top: 90px;
+    left: 425px;
+    z-index: 3;
+}
+.email-title {
+    color:#ffffff;
+    font-size: 30px;
+    font-weight:500;
+}
+.email__form {
+    margin-top: 45px;
+}
+.email-form input {
+    width: 475px;
+    margin-right: 10px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    padding-left: 40px;
+}
+.email-form .submit{
+    background: #f48146;
+    color: #FFFFFF;
+    width: auto;
+    padding: 15px 50px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+
+.content_05 {
+    height: 590px;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+}
+.client-content {
+    width: 825px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.client-content h3 {
+    padding-top: 95px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.client-content img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.client-point {
+    display: flex;
+    padding-left: 370px;
+
+}
+.client-point li {
+    width: 8px;
+    height: 8px;
+    background-color: #888888;
+    margin: 20px 10px;
+    list-style: none;
+}
+.client-point li:nth-child(2) {
+    background-color: #f48146;
+}
+
+
+.content_06 {
+    width: 100%;
+    height: 680px;
+    margin: 140px auto;
+}
+.content_06 .col-md-4 {
+    width: 100%;
+    height: 100%;
+}
+.project01-form {
+    height: 47%;
+    margin-bottom: 30px;
+}
+.project01-form h3 {
+    font-size: 45px;
+}
+.project01-form p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #888888;
+    margin-right: 45px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.project01-form span {
+    color: #f48146;
+}
+.project01-form .submit{
+    background: #f48146;
+    color: #FFFFFF;
+    width: auto;
+    padding: 15px 60px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.project-image {
+    height: 50%;
+    width: 100%;
+}
+.project-image .image {
+    height: 100%;
+    padding: 5px;
+    box-shadow: 0 0 10px #5D5D5D;
+}
+
+.project03 .image{
+    margin-top: 30px ;
+    margin-left: 50px;
+}
+
+/*
+Footer
+*/
+footer{
+    background: linear-gradient(to left, #FFFFFF 50%, #f66c27 50%);
+
+}
+
+footer .contact-form{
+    background: #f66c27;
+    box-sizing: border-box;
+    height: 700px;
+
+}
+
+.contact-form .content-form{
+    background: #FFFFFF;
+    padding: 60px;
+    margin-top: 138px;
+    margin-right: 100px;
+}
+
+.content-form input,textarea{
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+    font-size: 15px;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.content-form textarea{
+    padding-bottom: 70px;
+}
+.first-row input{
+    width: 40%;
+}
+
+.first-row:after{
+    content: '';
+    clear: both;
+}
+
+.first-row input[name="email"]{
+    float:right;
+}
+
+.contact-form input[type="submit"]{
+    background: #f48146;
+    color: #FFFFFF;
+    width: auto;
+    padding: 15px 70px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.submit-row{
+    text-align: center;
+}
+
+footer .contact-info{
+    box-sizing: border-box;
+    height: 700px;
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+h3{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+h4{
+    font-size: 25px;
+}
+
+.contact-info .line-contact-info{
+    margin-bottom: 50px;
+}
+
+.line-contact-info p span{
+    color: #f58b59;
+}
+.line-contact-info p{
+    padding-top: 15px;
+}
+
+footer .social-icon ul li i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb ;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 20px;
+}
+
+footer .social-icon ul{
+    list-style: none;
+    margin-left: 0;
+}
+.social-icon ul li{
+    float: left;
+}
+footer .social-icon i:hover{
+    background: #f66c27;
+}
+.social-icon .dd i {
+    background: #2faaf1;
+}
